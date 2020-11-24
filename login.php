@@ -25,10 +25,10 @@ require 'auth_control.php';
     
     div {
         margin: 0;
-        /* position: absolute; */
+        position: absolute;
         width: 300px;
         height: 100px;
-        background-color: red;
+        background-color: white;
         text-align: center;
         padding: 10px;
         opacity: 0.5;
