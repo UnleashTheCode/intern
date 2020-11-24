@@ -26,8 +26,8 @@ require 'auth_control.php';
     div {
         margin: 0;
         position: absolute;
-        width: 350px;
-        height: 300px;
+        width: 300px;
+        height: 100px;
         background-color: white;
         text-align: center;
         padding: 10px;
