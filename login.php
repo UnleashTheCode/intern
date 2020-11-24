@@ -36,6 +36,7 @@ require 'auth_control.php';
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 1em;
+        border-color: linear-gradient(to right, #00416a, #e4e5e6);
     }
 
     img {
