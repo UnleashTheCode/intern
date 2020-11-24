@@ -25,7 +25,7 @@ require 'auth_control.php';
     
     div {
         margin: 0;
-        position: absolute;
+        /* position: absolute; */
         width: 300px;
         height: 100px;
         background-color: white;
