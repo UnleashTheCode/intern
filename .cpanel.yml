@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/teodorda/public_html/intern/
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R /home/teodorda/repositories/intern/* $DEPLOYPATH
