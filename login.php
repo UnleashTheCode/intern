@@ -28,7 +28,7 @@ require 'auth_control.php';
         position: absolute;
         width: 300px;
         height: 100px;
-        background-color: red;
+        background-color: white;
         text-align: center;
         padding: 10px;
         opacity: 0.5;
