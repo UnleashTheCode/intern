@@ -49,6 +49,7 @@ require 'auth_control.php';
     input {
         height: 25px;
         border-radius: 1rem;
+        border-width: 1px;
     }
 
 </style>
