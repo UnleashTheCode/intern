@@ -37,7 +37,7 @@ require 'auth_control.php';
         border-style: solid;
         border-width: 5px;
         border-radius: 15px;
-        border-image-slice: 1;
+        /* border-image-slice: 1; */
         border-image-source: linear-gradient(to right, #373b44, #4286f4);
     }
 
