@@ -28,16 +28,17 @@ require 'auth_control.php';
         position: absolute;
         width: 300px;
         height: 100px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.5);
         text-align: center;
         padding: 10px;
-        opacity: 0.5;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border: 10px;
+        border-style: solid;
+        border-width: 2px;
         border-radius: 1em;
-        border-color: linear-gradient(#00416a, #e4e5e6, to left);
+        border-image-slice: 1;
+        border-color: black;
     }
 
     img {
