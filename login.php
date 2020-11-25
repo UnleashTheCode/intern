@@ -16,7 +16,7 @@ require 'auth_control.php';
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 100%;
-        height: auto;
+        max-height: 100%;
     }
     form {
         display: inline-block;
