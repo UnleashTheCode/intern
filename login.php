@@ -42,12 +42,13 @@ require 'auth_control.php';
     }
 
     img {
-        height: 20px;
+        height: 25px;
         vertical-align: middle;
     }
 
     input {
-        height: 20px;
+        height: 25px;
+        border-radius: 1rem;
     }
 
 </style>
