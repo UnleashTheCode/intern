@@ -34,7 +34,7 @@ require 'auth_control.php';
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border-style: solid;
+        /* border-style: solid; */
         border-width: 5px;
         border-radius: 15px;
         border-image-slice: 1;
