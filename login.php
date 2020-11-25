@@ -38,7 +38,7 @@ require 'auth_control.php';
         border-width: 2px;
         border-radius: 1em;
         border-image-slice: 1;
-        border-color: linear-gradient(to right, #373b44, #4286f4);
+        border-image-source: linear-gradient(to right, #373b44, #4286f4);
     }
 
     img {
