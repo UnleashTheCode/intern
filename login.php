@@ -34,11 +34,13 @@ require 'auth_control.php';
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border-style: solid;
+        /* border-style: solid; */
+        border: 2px solid linear-gradient(to right, #373b44, #4286f4);
         border-width: 5px;
         border-radius: 15px;
-        /* border-image-slice: 1; */
+        border-image-slice: 1;
         border-image-source: linear-gradient(to right, #373b44, #4286f4);
+        
     }
 
     img {
