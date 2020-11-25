@@ -15,6 +15,8 @@ require 'auth_control.php';
         background-image: url("./upload/santa.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        max-width: 100%;
+        height: auto;
     }
     form {
         display: inline-block;
