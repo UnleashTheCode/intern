@@ -34,9 +34,44 @@ if(isset($_POST['logat'])){
 }
 ?>
 <html>
-    <head>
+    <!-- <head>
         <link rel="stylesheet" href="secret_santa_css.css">
-    </head>
+    </head> -->
+    <style>
+        html, body {
+    text-align: center;
+    background: linear-gradient(to right, #373b44, #4286f4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 100%;
+}
+
+form, div {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    height: 25px;
+    border-radius: 1rem;
+    border-width: 1px;
+}
+
+label, p, h3 {
+    color: rgb(240, 240, 240);
+    font-size: 15px;
+}
+
+select {
+    font-size: 14px;
+}
+    </style>
     <body>
     <div>
     <form action="https://teodordan.dev/intern/secret_santa.php" method="post">
