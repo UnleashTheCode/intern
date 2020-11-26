@@ -33,7 +33,7 @@ require 'auth_control.php';
         position: absolute;
         width: 300px;
         height: 100px;
-        /* background-color: rgba(0, 0, 0, 0.4); */
+        background-color: rgba(0, 0, 0, 0.4);
         text-align: center;
         padding: 10px;
         top: 50%;
@@ -41,14 +41,9 @@ require 'auth_control.php';
         transform: translate(-50%, -50%);
         border-style: solid;
         border-width: 5px;
-        /* border-radius: 15px;
+        border-radius: 15px;
         border-image-slice: 30%;
-        border-image: linear-gradient(to right, #373b44, #4286f4); */
-        border: solid 4px transparent;
-        border-radius: 20px;
-        background-image: radial-gradient(circle at top left, #f00,#3020ff), rgba(0, 0, 0, 0.4), ;
-        background-origin: border-box;
-        background-clip: content-box, border-box;
+        border-image: #1167b1
     }
 
     img {
