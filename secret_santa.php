@@ -35,7 +35,8 @@ if(isset($_POST['logat'])){
 ?>
 <html>
     <style>
-        html, body {
+
+html, body {
     text-align: center;
     background: linear-gradient(to right, #373b44, #4286f4);
     background-repeat: no-repeat;
@@ -86,6 +87,11 @@ select:focus {
 option {
     font-size: 16px;
 }
+
+otherBox {
+    position: relative;
+    top: 25px;
+}
     </style>
     <body>
     <div>
@@ -124,7 +130,7 @@ option {
 if(isset($_POST['logat'])){
     echo '<html>
     <body>
-    <div>
+    <div id="otherBox">
     <h3> Ii iei cadou<h3> <h2>'.$castigator.'</h2>
     <p>Retine, poti sa faci un screenshot pe care sa-l tii bine, si te rog apasa pe butonul de mai jos cand esti pregatit.</p>
     <form action="login.php" method="get">
