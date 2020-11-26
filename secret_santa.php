@@ -34,9 +34,6 @@ if(isset($_POST['logat'])){
 }
 ?>
 <html>
-    <!-- <head>
-        <link rel="stylesheet" href="secret_santa_css.css">
-    </head> -->
     <style>
         html, body {
     text-align: center;
@@ -68,9 +65,13 @@ button {
     border-width: 1px;
 }
 
-label, p, h3 {
+label, p {
     color: rgb(240, 240, 240);
     font-size: 15px;
+}
+
+h1 {
+    color: rgb(240, 240, 240);
 }
 
 select {
@@ -80,7 +81,7 @@ select {
     <body>
     <div>
     <form action="https://teodordan.dev/intern/secret_santa.php" method="post">
-        <label for="logat"> Cine esti?</label><br>
+        <label for="logat"><h1>Cine esti?</h1></label><br>
         <select name="logat">
             <option value ="Cristi M">Cristi M</option>
             <option value ="Roxana">Roxana</option>
