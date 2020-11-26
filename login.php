@@ -33,7 +33,7 @@ require 'auth_control.php';
         position: absolute;
         width: 300px;
         height: 100px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.4);
         text-align: center;
         padding: 10px;
         top: 50%;
@@ -59,7 +59,7 @@ require 'auth_control.php';
     }
 
     h3 {
-        color: rgb(0, 0, 0, 0.1);
+        color: rgb(192, 192, 192, 0.1);
     }
 
 </style>
