@@ -41,9 +41,14 @@ require 'auth_control.php';
         transform: translate(-50%, -50%);
         border-style: solid;
         border-width: 5px;
-        border-radius: 15px;
+        /* border-radius: 15px;
         border-image-slice: 30%;
-        border-image: linear-gradient(to right, #373b44, #4286f4);
+        border-image: linear-gradient(to right, #373b44, #4286f4); */
+        border: double 4px transparent;
+        border-radius: 80px;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
     }
 
     img {
