@@ -38,6 +38,7 @@ echo '
         <link rel="stylesheet" href="secret_santa_css.css">
     </head>
     <body>
+    <div>
     <form action="https://teodordan.dev/intern/secret_santa.php" method="post">
         <label for="logat"> Cine esti?</label>
         <select name="logat">
@@ -60,6 +61,7 @@ echo '
         </select>
     <button type="submit" name="submit" value="submit">Do It </button>
     </form>
+    </div>
     </body>
 </html>';
 
