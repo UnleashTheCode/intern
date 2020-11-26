@@ -54,10 +54,9 @@ form, div {
     text-align: center;
     padding: 10px;
     text-align: center;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 button {
@@ -90,7 +89,7 @@ option {
 
 #otherBox {
     position: relative;
-    top: 25px;
+    top: 60%;
 }
     </style>
     <body>
