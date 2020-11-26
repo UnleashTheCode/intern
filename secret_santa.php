@@ -88,7 +88,7 @@ option {
     font-size: 16px;
 }
 
-otherBox {
+.otherBox {
     position: relative;
     top: 25px;
 }
