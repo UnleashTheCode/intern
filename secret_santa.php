@@ -79,6 +79,10 @@ select {
     height: 25px;
 }
 
+select:focus {
+    outline: none;
+}
+
 option {
     font-size: 16px;
 }
@@ -119,11 +123,15 @@ option {
 
 if(isset($_POST['logat'])){
     echo '<html>
+    <body>
+    <div>
     <h3> Ii iei cadou<h3> <h2>'.$castigator.'</h2>
     <p>Retine, poti sa faci un screenshot pe care sa-l tii bine, si te rog apasa pe butonul de mai jos cand esti pregatit.</p>
     <form action="login.php" method="get">
     <button type="submit" name="logout" value="submit">Log out</button>
     </form>
+    </div>
+    </body>
     </html>';
 }
 
