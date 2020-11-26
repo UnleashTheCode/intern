@@ -40,7 +40,7 @@ echo '
     <body>
     <div>
     <form action="https://teodordan.dev/intern/secret_santa.php" method="post">
-        <label for="logat"> Cine esti?</label>
+        <label for="logat"> Cine esti?</label><br>
         <select name="logat">
             <option value ="Cristi M">Cristi M</option>
             <option value ="Roxana">Roxana</option>
