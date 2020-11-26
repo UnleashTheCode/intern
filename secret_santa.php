@@ -74,7 +74,12 @@ h1 {
     color: rgb(240, 240, 240);
 }
 
-select, option {
+select {
+    font-size: 16px;
+    height: 25px;
+}
+
+option {
     font-size: 16px;
 }
     </style>
