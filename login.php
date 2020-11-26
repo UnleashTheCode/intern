@@ -15,7 +15,6 @@ require 'auth_control.php';
         text-align: center;
         background: url("./upload/santa.jpg");
         background-repeat: no-repeat;
-        background-position: center;
         background-size: cover;
         background-attachment: fixed;
         max-width: 100%;
