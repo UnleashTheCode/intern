@@ -32,7 +32,13 @@ if(isset($_POST['logat'])){
         echo "<script>alert('S-au extras toate persoanele!')</script>";
     }
 }
-echo '<html>
+echo '
+style{
+}<html>
+    <head>
+        <link rel="stylesheet" href="secret_santa_css">
+    </head>
+    <body>
     <form action="https://teodordan.dev/intern/secret_santa.php" method="post">
         <label for="logat"> Cine esti?</label>
         <select name="logat">
@@ -55,6 +61,7 @@ echo '<html>
         </select>
     <button type="submit" name="submit" value="submit">Do It </button>
     </form>
+    </body>
 </html>';
 
 }else {
