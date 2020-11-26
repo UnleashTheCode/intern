@@ -89,7 +89,7 @@ option {
 
 #otherBox {
     position: relative;
-    top: 60%;
+    top: 50%;
 }
     </style>
     <body>
