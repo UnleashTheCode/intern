@@ -33,7 +33,7 @@ require 'auth_control.php';
         position: absolute;
         width: 300px;
         height: 100px;
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         text-align: center;
         padding: 10px;
         top: 50%;
@@ -64,7 +64,7 @@ require 'auth_control.php';
 	</head>
 	<body>
 		<div>
-        <h3> Login</h3>
+        <h3 style={color:white;} > Login</h3>
 			<form action="login.php" method="post">
             <img src="./upload/lacat.png" alt="DCS"><input type="password" name="password" placeholder="Password" id="password" required>
 				<input type="submit" name="log-btn" value="Login">
