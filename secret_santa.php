@@ -63,7 +63,6 @@ button {
     height: 25px;
     border-radius: 1rem;
     border-width: 1px;
-    width: 25px;
 }
 
 label, p {
@@ -106,7 +105,7 @@ option {
             <option value ="Florin">Florin</option>
             <option value ="Marius">Marius</option>
         </select>
-    <button type="submit" name="submit" value="submit">Do It </button>
+    <button type="submit" name="submit" value="submit">Ho Ho Ho !</button>
     </form>
     </div>
     </body>
