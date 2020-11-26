@@ -48,7 +48,7 @@ if(isset($_POST['logat'])){
 form, div {
     margin: 0;
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 100px;
     text-align: center;
     padding: 10px;
