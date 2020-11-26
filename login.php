@@ -43,7 +43,7 @@ require 'auth_control.php';
         border-width: 5px;
         border-radius: 15px;
         border-image-slice: 1;
-        background: -webkit-linear-gradient(right, #373b44, #4286f4);
+        border-image: linear-gradient(to right, #373b44, #4286f4);
     }
 
     img {
@@ -55,6 +55,10 @@ require 'auth_control.php';
         height: 25px;
         border-radius: 1rem;
         border-width: 1px;
+    }
+
+    input:focus{
+        outline: none;
     }
 
     h3 {
