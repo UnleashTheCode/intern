@@ -35,7 +35,7 @@ if(isset($_POST['logat'])){
 echo '
 <html>
     <head>
-        <link rel="stylesheet" href="secret_santa_css">
+        <link rel="stylesheet" href="secret_santa_css.css">
     </head>
     <body>
     <form action="https://teodordan.dev/intern/secret_santa.php" method="post">
