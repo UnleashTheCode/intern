@@ -33,8 +33,7 @@ if(isset($_POST['logat'])){
     }
 }
 echo '
-style{
-}<html>
+<html>
     <head>
         <link rel="stylesheet" href="secret_santa_css">
     </head>
