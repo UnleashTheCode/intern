@@ -14,14 +14,15 @@ require 'auth_control.php';
         margin: 0;
         padding: 0;
     }
-
-    html, body {
+    html {
+        height: 100%;
+    }
+    body {
         text-align: center;
         background-image: url("./upload/santa.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 100%;
-        height: 100%;
     }
     form {
         display: inline-block;
