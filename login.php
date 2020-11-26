@@ -59,7 +59,7 @@ require 'auth_control.php';
     }
 
     h3 {
-        color: rgb(192, 192, 192, 0.1);
+        color: rgb(240, 240, 240);
     }
 
 </style>
