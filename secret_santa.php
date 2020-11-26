@@ -32,7 +32,7 @@ if(isset($_POST['logat'])){
         echo "<script>alert('S-au extras toate persoanele!')</script>";
     }
 }
-echo '
+?>
 <html>
     <head>
         <link rel="stylesheet" href="secret_santa_css.css">
@@ -63,7 +63,9 @@ echo '
     </form>
     </div>
     </body>
-</html>';
+</html>
+
+<?php
 
 }else {
     header('location: login.php');
