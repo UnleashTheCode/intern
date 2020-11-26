@@ -63,6 +63,7 @@ button {
     height: 25px;
     border-radius: 1rem;
     border-width: 1px;
+    width: 25px;
 }
 
 label, p {
@@ -70,7 +71,7 @@ label, p {
     font-size: 15px;
 }
 
-h1 {
+h2 {
     color: rgb(240, 240, 240);
 }
 
@@ -86,7 +87,7 @@ option {
     <body>
     <div>
     <form action="https://teodordan.dev/intern/secret_santa.php" method="post">
-        <label for="logat"><h1>Cine esti?</h1></label><br>
+        <label for="logat"><h2>Cine esti?</h2></label><br>
         <select name="logat">
             <option value ="Cristi M">Cristi M</option>
             <option value ="Roxana">Roxana</option>
