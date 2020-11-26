@@ -10,16 +10,14 @@ require 'auth_control.php';
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
 <style>
-    /* * {
-        margin: 0;
-        padding: 0;
-    } */
 
     html, body {
         text-align: center;
-        background-image: url("./upload/santa.jpg");
+        background: url("./upload/santa.jpg");
         background-repeat: no-repeat;
+        background-position: center;
         background-size: cover;
+        background-attachment: fixed;
         max-width: 100%;
         height: 100%;
     }
