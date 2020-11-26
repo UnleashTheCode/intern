@@ -42,8 +42,8 @@ require 'auth_control.php';
         border-style: solid;
         border-width: 5px;
         border-radius: 15px;
-        border-image-slice: 30%;
-        border-image: #1167b1
+        border-image-slice: 1;
+        border-color: #1167b1
     }
 
     img {
