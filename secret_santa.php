@@ -70,7 +70,7 @@ label, p {
     font-size: 15px;
 }
 
-h2 {
+h2, h3 {
     color: rgb(240, 240, 240);
 }
 
